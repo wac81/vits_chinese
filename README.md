@@ -6,13 +6,14 @@
 ## inference 
 you can run infer.py
 
-## switch english and chinese
+## switch english or chinese
 just modify 
 `chinese_mode = True`
 in ./text/__init__.py
 
 ## data example
 copy **24000hz** data-baker datasets to ./test/csmsc
+
 **For copyright reasons, you can only download it yourself**
 
 ## models
