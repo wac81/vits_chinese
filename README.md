@@ -19,6 +19,11 @@ copy **24000hz** data-baker datasets to ./test/csmsc
 ## models
 you can get example model in ./logs/woman_csmsc/G*.pth
 
+## Prosody model
+you can try chinese Prosody model in this repo.
+
+
+
 ======================================================================================================
 
 # VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech
