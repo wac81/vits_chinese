@@ -18,6 +18,10 @@ copy **24000hz** data-baker datasets to ./test/csmsc
 
 ## models
 you can get example model in ./logs/woman_csmsc/G*.pth
+`
+git lfs pull
+`
+get that.or you can get that from baidudisk
 
 ## Prosody model
 you can try chinese Prosody model in this repo.
