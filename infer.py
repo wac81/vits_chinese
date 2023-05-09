@@ -27,7 +27,7 @@ def get_text(text, hps):
     return text_norm
 
 
-hps = utils.get_hparams_from_file("/data/vits/configs/woman_csmsc.json")
+hps = utils.get_hparams_from_file("./configs/woman_csmsc.json")
 
 net_g = SynthesizerTrn(
     len(symbols),
@@ -36,7 +36,7 @@ net_g = SynthesizerTrn(
     **hps.model).cuda()
 _ = net_g.eval()
 
-_ = utils.load_checkpoint("/data/vits/logs/woman_csmsc/G_100000.pth", net_g, None) 
+_ = utils.load_checkpoint("./logs/woman_csmsc/G_100000.pth", net_g, None) 
 
 
 stn_tst = get_text("第一，南京不是发展的不行，是大家对他期望很高，", hps)

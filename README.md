@@ -1,5 +1,9 @@
 
 # This code is slightly modified on the [VITS repo](https://github.com/jaywalnut310/vits)
+
+## Install 
+`pip install -r requirements.txt` and python 3.7 pass.
+
 ## chinese train
 `python3 train.py -c configs/woman_csmsc.json -m woman_csmsc`
 
